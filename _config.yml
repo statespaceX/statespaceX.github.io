@@ -1,0 +1,27 @@
+# Site settings
+title: State Space blog
+email:
+description: "Notes on machine learning, math, and code."
+baseurl: "" # e.g. "/statespaceX" for project pages, "" for user/org site
+url: "https://statespacex.github.io"
+github_username: statespaceX
+# twitter_username:
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Don't publish the karpathy.github.io reference clone (if still present)
+# or bundler/vendor dirs if you keep them around.
+exclude:
+  - karpathy.github.io/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+  math_engine: mathjax
