@@ -2,7 +2,7 @@
 title: State Space blog
 email:
 description: "Notes on machine learning, math, and code."
-baseurl: "" # e.g. "/statespaceX" for project pages, "" for user/org site
+baseurl: "/statespaceX" # project site: https://statespacex.github.io/statespaceX/
 url: "https://statespacex.github.io"
 github_username: statespaceX
 # twitter_username:
